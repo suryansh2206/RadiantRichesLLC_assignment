@@ -1,0 +1,339 @@
+.rectangle {
+  align-self: stretch;
+  width: 1614px;
+  position: relative;
+  background-color: var(--color-gray-200);
+  display: none;
+  max-width: 100%;
+}
+.imageInsideFrame {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+.imageInsideFrame1 {
+  z-index: 2;
+}
+.depthFrame,
+.frameWithLinkAndImage,
+.imageInsideFrame1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.frameWithLinkAndImage {
+  margin: 0 !important;
+}
+.depthFrame {
+  z-index: 3;
+}
+.depthFrame1 {
+  z-index: 4;
+}
+.depthFrame1,
+.depthFrameParent,
+.irrigationManagement {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.irrigationManagement {
+  z-index: 5;
+}
+.depthFrameParent {
+  margin: 0 !important;
+}
+.image {
+  height: 34px;
+  flex: 1;
+  position: relative;
+  z-index: 6;
+}
+.frameParent {
+  width: 139px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.offLimitedTimeText {
+  height: 100%;
+  width: calc(100% - 22px);
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 22px;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+}
+.rectangle1 {
+  height: 37px;
+  width: 258px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  display: none;
+}
+.imageIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 6;
+}
+.computerModernText,
+.off {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+}
+.computerModernText {
+  width: 258px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-100);
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-4xs) var(--padding-5xs);
+  z-index: 5;
+}
+.off {
+  width: 312px;
+  flex-shrink: 0;
+  justify-content: center;
+  padding: 0 var(--padding-3xl) 0 0;
+  position: relative;
+}
+.categoriesFrame,
+.depthFrame2,
+.manageYourNutrientApplicati {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+.categoriesFrame {
+  right: 0;
+  z-index: 8;
+}
+.depthFrame2,
+.manageYourNutrientApplicati {
+  z-index: 9;
+}
+.manageYourNutrientApplicati {
+  right: 0;
+  z-index: 10;
+}
+.depthFrame3 {
+  height: 17px;
+  flex: 1;
+  position: relative;
+  z-index: 11;
+}
+.categories {
+  position: relative;
+  line-height: 20px;
+  white-space: nowrap;
+  z-index: 12;
+  margin-left: -73px;
+}
+.manageYourNutrientApplicatiParent {
+  width: 73px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-10xs) var(--padding-12xs) 0;
+  box-sizing: border-box;
+  position: relative;
+}
+.depthFrame4,
+.rectangle2 {
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  left: 0;
+}
+.depthFrame4 {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  z-index: 10;
+}
+.rectangle2 {
+  height: 17px;
+  top: 1px;
+  z-index: 11;
+}
+.websiteBuilders {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  z-index: 12;
+}
+.depthFrameGroup,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.rectangleParent {
+  flex: 1;
+}
+.depthFrameGroup {
+  width: 142px;
+  padding: var(--padding-10xs) 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.depthFrame5,
+.depthFrame6 {
+  width: 91px;
+  position: absolute;
+  margin: 0 !important;
+  left: 0;
+}
+.depthFrame5 {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  z-index: 10;
+}
+.depthFrame6 {
+  height: 17px;
+  top: 1px;
+  z-index: 11;
+}
+.todaysDeals {
+  position: relative;
+  line-height: 20px;
+  z-index: 12;
+}
+.depthFrameContainer,
+.frameDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.depthFrameContainer {
+  padding: var(--padding-10xs) 0 var(--padding-12xs);
+}
+.signUpText,
+.termsOfServiceText {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  max-width: 100%;
+}
+.signUpText {
+  width: 415px;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.termsOfServiceText {
+  flex: 1;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 302px;
+}
+.depthFrame10,
+.depthFrame7,
+.depthFrame8,
+.depthFrame9,
+.depthFrameParent1,
+.image1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.image1 {
+  border-radius: var(--br-9980xl);
+  z-index: 7;
+}
+.frameGroup {
+  height: 26px;
+  width: 26px;
+  position: relative;
+}
+.privacyPolicyText {
+  width: 491px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: calc(100% - 533px);
+  row-gap: 20px;
+}
+.logoAndTextFrame,
+.navigationBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.navigationBar {
+  overflow-x: auto;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 0 var(--padding-smi);
+  position: relative;
+  gap: 0 41px;
+}
+.logoAndTextFrame {
+  align-self: stretch;
+  background-color: var(--color-gray-200);
+  justify-content: center;
+  padding: 0 var(--padding-23xl) 0 var(--padding-xl);
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-lightgray);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .logoAndTextFrame {
+    padding-right: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .navigationBar {
+    gap: 0 41px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .signUpText {
+    flex-wrap: wrap;
+  }
+}
